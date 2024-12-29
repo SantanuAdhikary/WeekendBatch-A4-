@@ -1,0 +1,81 @@
+
+
+
+.header > button{
+    background-color: green;
+    color:white;
+    cursor: pointer;
+}
+
+
+/* !  1. hover */
+
+.header > button:hover{
+    background-color: blue;
+}
+
+/* ! 2. active */
+
+.header > button:active{
+    background-color:red
+}
+
+
+/* !  pseudoElement selector */
+
+
+
+/* ! 1. first-letter */
+
+.main > p::first-letter{
+    font-size: 40px;
+    color:red
+}
+
+/* ! 2. first-line */
+
+.main > p::first-line{
+    background-color: lightgoldenrodyellow;
+}
+
+/* ! 3. selection */
+
+.main > p::selection{
+    background-color: black;
+    color:white;
+}
+
+/* ! 4. marker */
+
+.main > ul > li::marker{
+    color:aqua
+}
+
+/* ! 5. before */
+
+.main > h2::before{
+    content:"*";
+    color:red;
+}
+
+/* ! 6. after */
+
+.main > h2::after{
+    content: "?";
+    color:green;
+}
+
+
+
+/* !  Attribute Selector */
+
+
+form > input[type="text"]{
+    background-color: green;
+}
+
+
+
+a[target="_self"]{
+    color:red;
+}

@@ -1,0 +1,23 @@
+
+
+.container1 , .container2 {
+    height: 250px;
+    width: 250px;
+    border: 2px solid red;
+}
+
+/* ! 1. descendant Selector */
+
+.container1 p{
+    color:red;
+}
+
+
+.container2 h1{
+    color:green
+}
+
+
+ .container2 > p {
+    color:purple
+}

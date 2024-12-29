@@ -1,0 +1,31 @@
+
+/* ! 1. tagname selector */
+
+h1{
+    color:red;
+}
+
+
+/* !  2. Id selector */
+
+#p1{
+    color:green
+}
+
+/* ! 3. class selector */
+
+.hello{
+  color:purple
+}
+
+/* ! 4. universal selector */
+
+*{
+    text-decoration: underline;
+}
+
+/* ! 5. group selector */
+
+h6 , .hello , #p1{
+    background-color: antiquewhite;
+}
